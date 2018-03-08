@@ -52,10 +52,25 @@
   <input name="_replyto" placeholder="Your email" type="email"><br>
   
   <textarea name="message" placeholder="Your message"></textarea><br>
-  
-  <button type="submit">Send</button>
-  <input type="hidden" name="_next" value="/media/pages/thanks.html" />  
+  <input type="hidden" name="_subject" value="Nouveau contact sur le portfolio!" />
+  <input type="hidden" name="_language" value="fr" />
+  <button type="submit">Send</button>  
 </form>
+
+<ul class="icons">
+
+	<li><a href="https://github.com/NaelAwayes" class="icon fa-github"><span class="label">GitHub</span></a></li>
+
+	<li><a href="https://www.linkedin.com/in/naelawayes/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+
+	<li><a href="/documents/CV_Nael_AWAYES_FEVRIER_2018_FR_4x4.pdf" class="icon fa-file-pdf-o"><span class="label">CV</span></a></li>
+
+</ul>
+
+<script>
+  $('.icon').attr('target', '_blank');
+  $('.label').addClass('fadeIn');
+</script>
 
 </article>
 
