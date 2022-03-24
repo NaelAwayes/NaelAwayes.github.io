@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
     {
-      "appID": "65VARG47GL.com.example.apple-samplecode.NFCTagReader",
+      "appID": "65VARG47GL.com.backelite.NFCTagReader",
       "paths": ["*"]
     }
     ]
